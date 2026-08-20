@@ -1,0 +1,35 @@
+{
+  "name": "genpark-localized-creator-pr-media-amplification-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Localized creator PR outreach & digital media amplification orchestrator.",
+  "author": "genpark",
+  "category": "marketing",
+  "tags": [
+    "creator-pr",
+    "media-amplification",
+    "brand-outreach",
+    "press-distribution",
+    "sparkfly"
+  ],
+  "inputs": {
+    "brand_announcement": {
+      "type": "string"
+    },
+    "target_regions": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "media_outlets_reached": {
+      "type": "integer"
+    },
+    "influencer_press_kit_url": {
+      "type": "string"
+    },
+    "syndication_status": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
